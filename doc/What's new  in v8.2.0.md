@@ -7,7 +7,7 @@ Studio 8.2改善了性能，解决了自动化测试周期长、资源占用率�
 
 此外，随着Katalon Studio解决高风险的安全漏洞，开源软件的兼容性增强也在不断实现，进一步增强了Katalon Studio和被测系统(SUT)之间的同步。
 
-还有其他一些功能包括IDLE的超时分流限制，对Chrome和Edge Chromium版本95的支持。
+还有其他一些功能包括空闲超时绕过限制，对Chrome和Edge Chromium版本95的支持。
 
 [下载 Katalon Studio](https://www.katalon.com/download/)
 
@@ -56,7 +56,7 @@ HAR文件是一种用于记录浏览器和网站之间交互信息的格式。�
 在这个版本中，我们改进了测试引擎(KS和KRE)来检测失败是否由覆盖目标元素的加载覆盖引起，如果是这样，测试引擎将等待一段时间(在项目设置中预定义)，然后再次
 执行点击操作关键字。
 ### 增强的智能等待，等待获取API请求
-以前在Chrome和Firefox上可用，智能等待也被添加到支持Edge铬。
+以前在Chrome和Firefox上可用，智能等待也被添加到支持Edge Chromium。
 
 智能等待是Katalon Studio的独特功能之一，设计专门等待，直到web元素是可见的，可点击之前进行。从Studio 8.2.0开始，Smart Wait也知道它需要等待
 Fetch API请求。
@@ -69,7 +69,7 @@ Fetch api允许你从web浏览器向服务器发出HTTP请求，因为它们提�
 ## 新支持的浏览器版本
 * Chrome 95
 * Microsoft Edge (Chromium) 95
-## 引入
+## 引入空闲超时绕过限制
 从7.8.0版本开始，管理员用户可以通过为Katalon Studio的用户设置一个时间限制(称为空闲会话超时)来最大化KSE许可证的使用。然而，每次弹出这个窗口时，连续
 点击“继续”，会使许可证看起来正在使用，并无效地呈现此特性。
 
