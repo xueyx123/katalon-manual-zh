@@ -102,15 +102,15 @@ brew install node` `npm install -g appium
 
 完成环境设置后，要检查 Katalon 是否成功识别您的 Android 设备，您可以在**文件 > 新示例项目 > 示例 Android 移动测试项目**中打开一个移动测试示例项目。
 
-![打开 Android 示例项目](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/KS-Android-Open--Sample-project.png)
+![打开 Android 示例项目](../imgs/zs/KS-Android-Open--Sample-project.png)
 
 在主工具栏上，在**Run**旁边的下拉列表中选择**Android**设备。
 
-![选择安卓设备](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/android.png)
+![选择安卓设备](../imgs/zs/android.png)
 
 您应该会在弹出对话框中看到您的 Android 设备的名称。
 
-![Katalon 识别安卓设备](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/device.png)
+![Katalon 识别安卓设备](../imgs/zs/device.png)
 
 **下一步：**
 
