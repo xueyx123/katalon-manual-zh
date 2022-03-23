@@ -11,23 +11,26 @@ Katalon Studio支持参数化测试对象的属性来处理动态对象。动态
 1. 选择要参数化其属性的对象。在本例中，选择的测试对象是txt_Username。
 2. 捕获它的定位器，并使用${variable_name}语法创建一个变量作为其动态属性的占位符。例如，我们为id属性的值创建了${id}变量。您可以用不同的选择方法参数化测试对象。
 * Attributes
+
 ![avatar](../imgs/xj/img-028-01.png)
 * Xpath
+
 ![avatar](../imgs/xj/img-028-02.png)
 * CSS
+
 ![avatar](../imgs/xj/img-028-03.png)
 3. 使用参数化的测试对象。
 * 操作视图
-在Manual View中打开您的Test Case，双击您想要参数化其属性的对象。
-![avatar](../imgs/xj/img-028-04.png)
-在显示的Test Object Input对话框中，将预期的动态属性声明为Variables面板中的变量。
-![avatar](../imgs/xj/img-028-05.png)
+    在Manual View中打开您的Test Case，双击您想要参数化其属性的对象。
+    ![avatar](../imgs/xj/img-028-04.png)
+    在显示的Test Object Input对话框中，将预期的动态属性声明为Variables面板中的变量。
+    ![avatar](../imgs/xj/img-028-05.png)
     - 参数类型:变量类型(默认为String)。
     - 参数:变量名。
     - 值类型:变量值的类型。
     - Value:该变量的特定值。
-    
-在本例中，Katalon Studio使用id变量，其特定值为4TH4T934253&#^%(以查找txt_UserName对象)。
+
+    在本例中，Katalon Studio使用id变量，其特定值为4TH4T934253&#^%(以查找txt_UserName对象)。
 
 * 代码视图
 
@@ -38,7 +41,6 @@ Katalon Studio支持参数化测试对象的属性来处理动态对象。动态
     `findTestObject('{your test object}', [('{property}') : '{value of property}'])`
 
     例如：
-* 
 
     - 一个动态属性：
     
