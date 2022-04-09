@@ -56,12 +56,12 @@
 | ------------------------------------------------------------ | ------------------------------ |
 | 集成测试                                                     | v7.8.0+                        |
 | 功能测试                                                     | v7.8.0+                        |
-| E-2-E 测试                                                   | v7.8.0+                        |
+| 端到端（E2E）测试                                            | v7.8.0+                        |
 | [视觉测试](https://github.com/katalon-studio-samples/web-visual-testing-samples) | v7.8.0+                        |
 
-### 独特的能力
+### 特有的能力
 
-| 独特的能力              | 描述                                                         | 支持的 Katalon Studio 版本 |
+| 特有的能力             | 描述                                                         | 支持的 Katalon Studio 版本 |
 | --------------------------- | :----------------------------------------------------------- | :------------------------- |
 | 被测应用 (AUT) 测试组合 | Katalon Studio 允许在一个项目和执行流程中组合多种应用程序类型（Web UI、API、移动和桌面）。 您可以[在此处](https://github.com/katalon-studio-samples/api-web-combination-sample/tree/master)使用我们的 Github 示例项目测试此功能。 | v7.0.0+                    |
 | 双编辑界面              | Katalon Studio 测试脚本可以在两个界面之间互换：手动和脚本编辑器。 这使水平良莠不齐的自动化测试技能的团队能够在同一个项目中有效且高效地工作。 | v7.0.0+                    |
@@ -117,8 +117,8 @@
 
 | **产品**                                                     | **支持的 Katalon Studio 版本** |
 | ------------------------------------------------------------ | ------------------------------ |
-| [Katalon Recorder](https://docs.katalon.com/katalon-recorder/docs/export-test-project-to-ks.html#export-to-katalon-studio) | v7.8.0+                        |
-| [Katalon TestOps](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html#upload-test-results-automatically) | v7.0.0+                        |
+| [卡塔隆记录器](https://docs.katalon.com/katalon-recorder/docs/export-test-project-to-ks.html#export-to-katalon-studio) | v7.8.0+                        |
+| [卡塔隆测试操作](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html#upload-test-results-automatically) | v7.0.0+                        |
 
 ### 从其他工具迁移
 
