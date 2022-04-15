@@ -15,7 +15,7 @@
     * 在Katalon Runtime Engine中改进了加载时间。我们的基准测试结果显示:大型项目的速度要快2倍，中小型项目的速度要快1.5倍。
     * 在Katalon Studio中提高了大项目的响应能力和加载时间。我们的基准测试的结果显示:重命名/打开测试用例的速度快了2倍，移动测试用例的速度快了1.5倍。
     * 打开/执行测试时，Katalon Studio平均减少了12%的内存消耗。
-    * 减少30%的内存消耗，平均Katalon运行时引擎的长执行会话。
+    * 长时间执行会话的 Katalon 运行时引擎平均减少 30% 的内存消耗。
 * \[Web测试]改进了Web测试的同步处理:
     * \[Katalon Studio和Katalon Runtime Engine]改进了点击和**偏移点击**关键字自动延迟和再次点击一个元素后面的加载覆盖。请参见
     [Click](https://docs.katalon.com/katalon-studio/docs/webui-click.html "")和[Click OffSet](https://docs.katalon.com/katalon-studio/docs/webui-click-offset.html "")。
